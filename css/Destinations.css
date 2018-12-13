@@ -1,0 +1,64 @@
+/* list of places */
+li {
+    display: inline;
+   
+}
+.places a {
+    color: white;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+/* carousel section */
+.carousel-caption {
+    font-family: 'Crete Round', serif;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Vollkorn', serif;
+}
+/* To change the text color as we hover the places */
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+#london {
+    height: 100%;
+}
+.carousel-caption h2 {
+    font-size: 3rem;
+}
+/* padding for form elements */
+.form-group {
+    padding-left: 3rem;
+    font-size: 1.2rem;
+}
+.carousel {
+ padding-bottom: 1rem;
+}
+/* subscribe button description elements */
+.subscribe_button {
+    padding-left: 3rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+/* for the image to fit the browser screen */
+.carousel-item img {
+    height: 100vh;
+}
+.carousel-item, .active img {
+    height: 100vh;
+    width: 100%;
+}
+div.subscribe_button {
+    margin-bottom: 2rem;
+}
+/* footer styling */
+#footer-main {
+    background-color: #222;
+    padding: 2.5rem 0;
+    color: white;
+    font-size: 1.2rem;
+}
+footer li {
+    display: block;
+}
+
